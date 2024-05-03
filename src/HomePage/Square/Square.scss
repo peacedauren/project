@@ -1,0 +1,18 @@
+.square {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s all linear;
+    border: 0;
+
+    &:hover {
+        background-color: rgb(112, 112, 112);
+    }
+
+    & h1 {
+        display: none;
+    }
+}
